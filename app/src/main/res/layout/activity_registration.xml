@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="15dp"
+android:orientation="vertical"
+android:id="@+id/Email">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:hint="Email"/>
+</LinearLayout>
+
+<LinearLayout
+android:layout_below="@id/Email"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="15dp"
+android:orientation="vertical"
+android:id="@+id/Username">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="UserName" />
+</LinearLayout>
+
+
+
+<LinearLayout
+android:layout_below="@id/Username"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="15dp"
+android:orientation="vertical"
+android:id="@+id/password">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp"
+    android:hint="Password" />
+
+</LinearLayout>
+    <LinearLayout
+
+    android:layout_below="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:id="@+id/Register">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
